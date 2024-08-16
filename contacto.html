@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./header.jpg" alt="header" class="header"></a><br><br>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h1 class="contacto">Contacto</h1>
+            <h3 class="consulta">Dejanos tu consulta</h3>
+            <br>
+
+            <form>
+                <b>Nombre</b> <input type="text" name="Nombre" class="contenedor"> <br><br>
+                <b>Apellido</b> <input type="text" name="Apellido" class="contenedor"> <br><br>
+                <b>Celular</b> <input type="number" name="Celular" class="contenedor"> <br><br>
+                <b>Sexo</b> <br><br>
+                <b>Femenino</b> <input type="radio" name="Sexo"> <br><br>
+                <b>Masculino</b> <input type="radio" name="Sexo"> <br><br>
+                <b>Otro</b> <input type="radio" name="Sexo"> <br><br>
+                <b>Seleccione su País</b><br><br>
+                <select name="País" id="País">
+                    <option hidden="pais">Seleccione su País</option>
+                    <option value="arg">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="py">Paraguay</option>
+                    <option value="mx">México</option>
+                </select> <br><br>
+                <b class="comentarios">Comentarios</b> <br><br>
+                <textarea name="" id="" class="contenedor1"></textarea><br><br>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Reestablecer" class="boton">
+            </form>
+            <br><br>
+        </section>
+    </main>
+    <footer>&copy;Todos los derechos reservados - 2024</footer>
+</body>
+</html>

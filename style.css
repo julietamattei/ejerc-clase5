@@ -1,0 +1,101 @@
+/*
+color-primario: #000000
+color-secundario: #d0a789
+color-terciario: #bbb8b1
+color-cuarto: #fee8dd
+color-quinto: #384345
+*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+}
+
+.listaNav{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: #d0a789;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+:any-link{
+    color: white;
+    text-decoration: none;
+}
+
+.parrafo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+    color: black;
+    text-align: justify;
+    border-radius: 8px;
+    border: 5px solid;
+    border-color: #fee8dd;
+    background-image: url("./background.jpg");
+    background-size: 100%;
+    background-repeat: round;
+    padding: 20px;
+}
+
+.formulario{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #bbb8b1;
+}
+
+.contenedor1{
+    width: 100%;
+    height: 100px;
+}
+
+.contenedor{
+    width: 100%;
+    height: 30px;
+}
+
+.contacto{
+    background-color: #384345;
+}
+
+.consulta{
+    background-color: #384345;
+}
+
+.comentarios{
+    background-color: #384345;
+}
+
+.boton{
+    background-color: #fee8dd;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #384345;
+    color: #d0a789;
+    padding: 10px;
+    font-size: large;
+}
+
+@media screen and (min-width: 768px) {
+    .listaNav{
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    .parrafo1{
+        font-size: 200%;
+    }
+}
